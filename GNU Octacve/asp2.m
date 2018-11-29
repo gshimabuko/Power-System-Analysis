@@ -30,7 +30,7 @@ K2(1)=0;
 K3(1)=0;
 lambda(2)=lambda(1);
 n++;
-while(Err(n)>0.0000006)
+while(Err(n)>0.0000001)
   
   P1(n)=lambda(n)*(1-B0(1))-cost(1,2)-2*lambda(n)*(B(1,2)*P2(n-1)+B(1,3)*P3(n-1));
   P1(n)=P1(n)/2;
